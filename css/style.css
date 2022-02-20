@@ -5,13 +5,26 @@
     font-size: 98%;
     text-decoration: none;
     color: #00C4CC;
+
+}
+
+body{
+    overflow-x:hidden;
 }
 /*General*/
 .Sec{
+    
     margin-top: 15%;
+    width: 97%;
 }
 .btn:hover{
     background-color: #cb88ff1a;
+}
+.ContainerPhoneMusic{
+    display: none;
+}
+.music{
+    width: 60%;
 }
 .btn{
     display: flex;
@@ -63,10 +76,12 @@ nav{
 
 
 .Seccion-Principal_Part1{
-    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .Seccion__Principal--Imagen{
-    width: 80%;
+    width: 70%;
     
 }
 
@@ -121,11 +136,11 @@ nav{
 form{
     font-weight: bold;
     border-radius: 15px;
-    box-shadow: 1px 30px 60px 8px rgba(0, 0, 0, 0.514);
+    box-shadow: 1px 30px 60px 8px rgba(0, 0, 0, 0.5);
     display: inline-block;
-
     padding: 20%;
     color: #121640;
+    background-color: #091ad61a;
 
 }
 input{
@@ -133,10 +148,12 @@ input{
     border: none;
     padding: 5px;
     margin-top: 10px;
+    color: white;
     background-color: rgba(0, 0, 0, 0.418);
 }
 label{
     margin-top: 10px;
+    color: white;
 }
 h2{
     color: white;
@@ -154,6 +171,7 @@ h2{
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
     align-content: center;
+    margin: 15px;
 }
 .GridGaleria__ContImg{
     width: 30px;
@@ -166,6 +184,7 @@ h2{
     padding: 5px;
 }
 
+
 /*Footer*/
 footer{
     background-color: black;
@@ -175,11 +194,17 @@ footer{
 
 }
 
-
+.titulogaleria {
+    text-align: center;
+    color: #00C4CC;
+}
 @media (max-width: 460px) {
     *{
         font-size: 95%;
     }
+    body{
+        overflow-x: hidden;
+     }
     .btn{
         display: flex;
         align-items: center;    
@@ -193,7 +218,19 @@ footer{
         cursor: pointer;
     }
 
+    .ContainerPhoneMusic{
+        
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
 
+
+    }
+    .music{
+        width: 70%;
+    }
 
     nav{
         display: flex;
@@ -222,18 +259,26 @@ footer{
 
     .Seccion__Principal{
         display: flex;
-        flex-direction: column;
         align-items: center;
-        margin-bottom: 100%;
+        margin-bottom: 50%;
+        align-content: space-between;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
     }
     
-    
-    .Seccion-Principal_Part1{
-        margin-left: 15%;
-    }
     .Seccion__Principal--Imagen{
-        width: 80%;
+        width: 85%;
         
+    }
+
+    .Seccion-Principal_Part1{
+        width: 100%;
+    }
+
+    .Seccion-Principal_Part2{
+        position: relative;
+        top: 250px;
     }
 
     /*Seccion 2*/
@@ -269,8 +314,9 @@ footer{
 }
 .Seccion__Descargas--ContBtn{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: nowrap;
 }
 
 .Seccion__Title{
@@ -278,12 +324,11 @@ footer{
 }
 
 .Seccion__Registrate{
-    background-image: url("../img/register.jpg");
     background-image: url("../register.jpg");
-    background-position: 25%;
     width: 100%;
-    height: 30rem;
-    background-size: cover;
+    height: 40rem;
+    background-position: 15%;
+    background-size: auto;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -296,13 +341,21 @@ footer{
 form{
     font-weight: bold;
     border-radius: 15px;
-    box-shadow: 1px 30px 60px 8px rgba(0, 0, 0, 0.514);
-    color: #121640;
+    box-shadow: 1px 30px 60px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20%;
+    color: #ffffff;
+    background-color: #00000046;
 
+}
+input{
+    color: white;
+}
+label{
+    color: white;
 }
 
 .formulario{
-    display: flex;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
@@ -310,7 +363,18 @@ form{
     justify-content: flex-start;
 }
 
+.ContenedorBotonesDescarga{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
 
-
+.Sec2{
+    margin-top: 60%;
+    margin-bottom: 40%;
   }
-  
+
+
+}

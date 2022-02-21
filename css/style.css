@@ -341,7 +341,7 @@ footer{
 .Seccion__Registrate{
     background-image: url("../register.jpg");
     width: 100%;
-    height: 40rem;
+    height: 1%;
     background-position: 15%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -361,6 +361,8 @@ form{
     padding: 20%;
     color: #ffffff;
     background-color: #00000046;
+    margin-top: 50%;
+    margin-bottom: 50%;
 
 }
 input{

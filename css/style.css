@@ -7,6 +7,10 @@
     color: #00C4CC;
 
 }
+.icon{
+    box-shadow: 3px 3px 15px 3px rgba(51, 36, 36, 0.486);
+    border-radius: 30px;
+}
 html {
     scroll-behavior: smooth;
   }

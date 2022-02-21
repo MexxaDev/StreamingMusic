@@ -7,6 +7,21 @@
     color: #00C4CC;
 
 }
+html {
+    scroll-behavior: smooth;
+  }
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(2, 2, 56, 0.247);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 20px;  
+    border: 10px solid #8A3ADC;  
+  }
 
 body{
     overflow-x:hidden;

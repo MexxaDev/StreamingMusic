@@ -28,9 +28,6 @@ body{
 
  }
 
- form{
-     color: white;
- }
 
 form{
     font-weight: bold;
@@ -41,7 +38,7 @@ form{
     margin-left: 1%;
     color: #121640;
     background-color: #000000af;
-    margin-right: 30%;
+    color: white;
     
 
 }
@@ -66,4 +63,20 @@ label{
     background-color: rgba(230, 230, 230, 0.26);
     padding: 8px;
     border-radius: 10px;
+}
+@media (max-width: 480px) {
+    .ContenedorFormulario{
+        background-color: #121640;
+        background-image: url(../ios.png);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    }
 }

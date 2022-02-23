@@ -78,5 +78,7 @@ label{
         align-items: center;
         justify-content: center;
     }
+    form{
+        padding: 6%;
     }
 }

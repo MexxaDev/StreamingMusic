@@ -1,0 +1,22 @@
+*{
+    font-size: 10px;
+    background-color: #121640;
+    color:#CB88FF; 
+}
+body{
+    display: flex;
+}
+nav{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.CtnBtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

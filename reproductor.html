@@ -5,82 +5,218 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/Reproductor.css">
+    <link rel="stylesheet" href="css/Reproductor2.css">
 </head>
 <body>
-    <nav>
-        <div class="Nav-part1">
-            <div class="CtnBtn">
-                <div class="ContenedorIcono">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00C4CC" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <polyline points="5 12 3 12 12 3 21 12 19 12" />
-                        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-                        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-                      </svg>
+ <div class="ContainerReproductor">
+     <div class="ContenedorMenuUsuario">
+         <div class="PosicionPantallaMenu">
+            <div class="ContenedorSeccionesItems">
+                <div class="ItemsSec1">
+                    <div class="Item">
+                       <a href="#">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a8e8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                               <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                               <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                               <rect x="10" y="12" width="4" height="4" />
+                             </svg>
+                       </a>
+                    </div>
+                    <div class="Item">
+                       <a href="#">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-disc" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#007ea7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                               <circle cx="12" cy="12" r="9" />
+                               <circle cx="12" cy="12" r="1" />
+                               <path d="M7 12a5 5 0 0 1 5 -5" />
+                               <path d="M12 17a5 5 0 0 0 5 -5" />
+                             </svg>
+                       </a>
+                    </div>
+                    <div class="Item">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#007ea7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                           <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                         </svg>
+                    </div>
+                    <div class="Item">
+                       <a href="#">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#007ea7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                               <circle cx="12" cy="12" r="9" />
+                               <circle cx="12" cy="10" r="3" />
+                               <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+                             </svg>
+                       </a>
+                    </div>
                 </div>
-                <div class="ContenedorTituloIcono">
-                   Home
+                <div class="ItemSec2">
+                   <div class="Item2">
+                       <a href="#">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#007ea7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                               <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+                               <circle cx="12" cy="12" r="3" />
+                             </svg>
+                       </a>
+                       
+                    </div>
                 </div>
-            </div>
-            <div class="CtnBtn">
-                <div class="ContenedorIcono">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00C4CC" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
-                      </svg>
-                </div>
-                <div class="ContenedorTituloIcono">
-                   Favorite
-                </div>
-            </div>
-            <div class="CtnBtn">
-                <div class="ContenedorIcono">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-music" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00C4CC" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <circle cx="6" cy="17" r="3" />
-                        <circle cx="16" cy="17" r="3" />
-                        <polyline points="9 17 9 4 19 4 19 17" />
-                        <line x1="9" y1="8" x2="19" y2="8" />
-                      </svg>
-                </div>
-                <div class="ContenedorTituloIcono">
-                   Live
-                </div>
-            </div>
-        </div>
-       <div class="Nav-part2">
-        <div class="ContenedorIcono">
-        </div>
-
-        <div class="ContBtn">
-            <div class="ContenedorTituloIcono">
-                User
              </div>
-             
+    
+         </div>
+
+
+     </div>
+     <div class="ContenedordGeneral">
+         <div class="ContenedorPublicidad">
+             <div class="ContenedorBanner">
+                 <img class="imgBner" src="img/lofi.jpg" alt="">
+             </div>
+         </div>
+         <div class="ContenedorAlbunes">
+            <h2>Recomendado para ti</h2>
+            <div class="GridPortadas">
+                
+
+                <div class="Album">
+                    <div class="FotoAlbum">
+                        <img class="imgAlbum" src="img/album/Diseño sin título (7).png" alt="">
+                    </div>
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Farsante</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Ozuna</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (2).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Farsante</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Ozuna</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (1).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">El arbol de la birra</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Mago de oz</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (4).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Espejos</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Bruno Mars</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (5).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Heart</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Coldplay</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (6).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Judas Priest</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Oasis</h3>
+                    </div>
+                </div>
+
+                <div class="Album">
+                    <div class="FotoAlbum">
+                        <img class="imgAlbum" src="img/album/Diseño sin título (7).png" alt="">
+                    </div>
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Farsante</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Ozuna</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (2).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Farsante</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Ozuna</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (1).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">El arbol de la birra</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Mago de oz</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (4).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Espejos</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Bruno Mars</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (5).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Heart</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Coldplay</h3>
+                    </div>
+                </div>
+                <div class="Album">
+                    <img class="imgAlbum" src="img/album/Diseño sin título (6).png" alt="">
+                    <div class="TituloAlbum">
+                        <h3 class="Titulo">Judas Priest</h3>
+                    </div>
+                    <div class="NombreCantante">
+                        <h3 class="Nombre">Oasis</h3>
+                    </div>
+                </div>
         </div>
+     </div>
 
-        <div class="CtnBtn">
-            <div class="ContenedorIcono">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00C4CC" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
-                    <circle cx="12" cy="12" r="3" />
-                  </svg>
-            </div>
-            <div class="ContenedorTituloIcono">
-               Settings
-            </div>
-        </div>
-
-       </div>
-
-    </nav>
-    <div class="ContenedorReproductor">
-        
-    </div>
-    <div class="ContenedorCancion">
-       
-    </div>
+ </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 98%;
+    text-decoration: none;
+    color: #00C4CC;
+    font-family: 'Montserrat', sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(2, 2, 56, 0.247);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 20px;  
+    border: 10px solid #8A3ADC;  
+  }
+img{
+    border-radius: 10px;
+}
+a{
+    cursor: pointer;
+}
+body{
+    background-color:#121640 ;
+}
+
+.ContainerReproductor{
+    display: grid;
+    grid-template-columns: 6.3% 92.9%;
+}
+/*Menu*/
+.ContenedorMenuUsuario{
+    display: inline-block;
+    text-align: center;
+    height: 100vh;
+    width: 50vw;
+}
+.ContenedorSeccionesItems{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+.PosicionPantallaMenu{
+    position: fixed;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.952);
+    width: 5vw;
+
+}
+.Item{
+    margin-top: 30px;
+}
+.Item2{
+    margin-bottom: 30px;
+}
+
+/*Principal*/
+/*Seccion 1*/
+.ContenedorBanner{
+    padding: 1%;
+    
+}
+.imgBner{
+    width: 100%;
+    height: 80vh;
+}
+/*Seccion 2*/
+.GridPortadas{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Album{
+    width: 20%;
+    margin: 10px;
+
+}
+.imgAlbum{
+    width: 100%;
+}
+
+.Titulo{
+    color: white;
+}
+.Nombre{
+    color: rgb(175, 175, 175);
+    font-size: 80%;
+}
+h2{
+    color: white;
+    margin-left: 10px;
+}
+
+.Album{
+    transition: transform .2s; /* Animation */
+}
+.Album:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+    .ContainerReproductor{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .ContenedorMenuUsuario{
+        display: none;
+
+    }
+    .ContenedorBanner{
+        width: 100%;
+        height: 30vh;
+        
+    }
+    .imgBner{
+        width: 100%;
+        height: 100%;
+    }
+    /*Seccion 2*/
+    .GridPortadas{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    /*
+    */
+    .Album{
+        width: 40%;
+        margin: 10px;
+    
+    }
+    .imgAlbum{
+        width: 100%;
+    }
+    
+    .Titulo{
+        color: white;
+    }
+    .Nombre{
+        color: rgb(175, 175, 175);
+        font-size: 80%;
+    }
+}

@@ -39,6 +39,7 @@ form{
     color: #121640;
     background-color: #000000af;
     color: white;
+    margin-right: 30px;
     
 
 }
@@ -80,5 +81,6 @@ label{
     }
     form{
         padding: 6%;
+        margin-right: -30px;
     }
 }

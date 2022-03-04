@@ -1,22 +1,66 @@
 *{
-    font-size: 10px;
-    background-color: #121640;
-    color:#CB88FF; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-body{
-    display: flex;
+a{
+    cursor: pointer;
 }
-nav{
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
+.ContenedorMenuUsuario{
+    position: fixed;
+    left: 0;
+}
+
+.ContainerReproductor{
+    display: grid;
+    grid-template-columns: 10%  90%;
+}
+.ContenedordGeneral{
+    width: 100vw;
+    text-align: center;
     align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    height:100vh;
+    padding: 1%;
 
 }
-.CtnBtn{
-    display: flex;
+.ContenedorPublicidad{
+    width: 100vw;
+    text-align: center;
     align-items: center;
-    flex-direction: column;
+    background-color: rgb(219, 23, 23);
+
+    
 }
+.ContenedorBanner{
+    padding-top: 3%;
+    padding: 3%;
+}
+.imgBner{
+    width: 95%;
+    height: 80vh;
+    margin-left: 7%;
+}
+
+/*Menu usuario*/
+.ContenedorMenuUsuario{
+    display: inline-block;
+    text-align: center;
+    width: 5vw;
+    height: 100vh;
+    background-color:rgba(77, 128, 80, 0);
+}
+.ContenedorSeccionesItems{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+.Item{
+    margin-top: 30px;
+}
+.Item2{
+    margin-bottom: 10px;
+}
+/*Contenido general*/

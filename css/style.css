@@ -111,6 +111,9 @@ nav{
 }
 
 /*Seccion 2*/
+.Sec2{
+    margin-bottom: -200px;
+}
 .Seccion__Descargas{
     display: flex;
     flex-direction: row;
@@ -171,7 +174,7 @@ form{
     color: #121640;
 	background: linear-gradient(-45deg, #ee76528e, #e73c7e8e, #23a5d58e, #23d5ab8e);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 3s ease infinite;
     width: 150%;
 
 }
@@ -340,7 +343,6 @@ footer{
     flex-wrap: wrap;
 
 }
-
 .Seccion__Descargas--Img{
     border-radius: 30px;
 }

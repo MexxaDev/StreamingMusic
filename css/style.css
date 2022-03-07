@@ -404,10 +404,10 @@ label{
 
 .formulario{
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    align-items: flex-end;
+    flex-direction: column;
+    align-content: space-around;
     justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .ContenedorBotonesDescarga{
